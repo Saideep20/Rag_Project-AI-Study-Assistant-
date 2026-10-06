@@ -1,0 +1,14 @@
+[project]
+name = "ollama-ai-study-assistant"
+version = "0.1.0"
+description = "A RAG-based AI study assistant for asking questions about PDF documents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "ollama>=0.6.3",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.0.0",
+]
